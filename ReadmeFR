@@ -1,0 +1,78 @@
+# Politique de confidentialité — MesJustifs
+
+**Dernière mise à jour : 22 juin 2026**
+
+## Résumé
+
+MesJustifs est une application **100 % locale**. Vos justificatifs, vos métadonnées et les mots-clés extraits sont stockés sur votre appareil. Aucune donnée n'est transmise au développeur ni à un service tiers (autre qu'Apple iCloud pour la synchronisation privée, à votre discrétion).
+
+## 1. Responsable du traitement
+
+L'application MesJustifs est éditée par Mohamed Moukah (« l'Éditeur »).
+Contact : mmoukah@gmail.com
+
+## 2. Données traitées
+
+### Données stockées localement sur votre appareil
+- Images des documents scannés ou importés (PDF, JPEG)
+- Métadonnées : type de document, date de scan, nom personnalisé, tags
+- Texte extrait par OCR
+- Mots-clés (date, montant, email, téléphone, IBAN, référence, etc.) — les valeurs marquées sensibles sont chiffrées par AES-GCM avec une clé conservée dans le trousseau iOS
+- Templates, journaux d'audit, exclusions OCR
+- Préférences utilisateur (réglages, notifications d'expiration)
+
+### Données NON collectées
+- Aucune donnée n'est transmise à l'Éditeur ni à un serveur tiers
+- Aucun identifiant publicitaire
+- Aucune télémétrie, aucun analytics
+- Aucun cookie
+
+## 3. Synchronisation iCloud (optionnelle)
+
+Si un compte iCloud est actif sur votre appareil, votre base de données est répliquée automatiquement par iOS dans **votre conteneur iCloud privé** (CloudKit), accessible uniquement depuis vos appareils signés avec le même identifiant Apple. **La clé de chiffrement des valeurs sensibles n'est jamais synchronisée** ; elle reste dans le trousseau local de chaque appareil.
+
+L'Éditeur n'a accès à aucune donnée stockée dans iCloud. La synchronisation est régie par la politique de confidentialité d'Apple Inc. : https://www.apple.com/legal/privacy/
+
+## 4. Achats intégrés
+
+Lorsque vous achetez « MesJustifs Pro », la transaction est traitée par **Apple via l'App Store**. L'application reçoit uniquement un statut d'achat (Pro actif / inactif). L'Éditeur ne reçoit aucune information personnelle, aucun moyen de paiement.
+
+## 5. Permissions iOS demandées
+
+- **Appareil photo** : nécessaire pour scanner les documents
+- **Face ID / Touch ID** : nécessaire pour le verrouillage optionnel de l'app
+- **Notifications** : nécessaire pour les rappels d'expiration (locales, non transmises)
+
+## 6. Vos droits (RGPD, art. 15-22)
+
+Toutes les données restant sur votre appareil, vous en gardez la maîtrise totale :
+- **Accès / portabilité** : exports CSV / JSON / PDF disponibles dans l'app
+- **Rectification** : édition directe dans l'app
+- **Effacement** : Réglages → « Effacer toutes mes données (RGPD) » détruit l'ensemble des justificatifs et la clé de chiffrement
+- **Désactivation iCloud** : depuis Réglages iOS → votre compte Apple → iCloud → MesJustifs
+
+## 7. Sécurité
+
+- Chiffrement AES-GCM (CryptoKit Apple) des valeurs marquées sensibles
+- Clé conservée dans le **trousseau iOS** (accessible uniquement appareil déverrouillé, jamais synchronisée)
+- Verrouillage optionnel Face ID / Touch ID
+- Aucune communication réseau hors iCloud privé
+
+## 8. Conservation des données
+
+Vos données sont conservées tant que vous utilisez l'application. La suppression de l'app efface l'ensemble des données locales. Pour effacer aussi le conteneur iCloud privé : Réglages iOS → votre compte → iCloud → Gérer le stockage → MesJustifs → Supprimer les données.
+
+## 9. Enfants
+
+MesJustifs n'est pas destinée aux enfants de moins de 13 ans et ne collecte aucune donnée auprès d'eux.
+
+## 10. Modifications
+
+Toute modification substantielle de cette politique sera signalée dans l'application via une mise à jour. La date de mise à jour figure en haut de ce document.
+
+## 11. Contact & réclamation
+
+Pour toute question : mmoukah@gmail.com
+Vous avez également le droit de déposer une réclamation auprès de la CNIL (www.cnil.fr).
+
+
