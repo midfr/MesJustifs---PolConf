@@ -8,8 +8,8 @@ MesJustifs is a **100% local** application. Your documents, metadata and extract
 
 ## 1. Data Controller
 
-The MesJustifs application is published by Mohamed Moukah ("the Publisher").
-Contact: mmoukah@gmail.com
+The MesJustifs application is published by M Moukah ("the Publisher").
+Contact: midfr.com@gmail.com
 
 ## 2. Data processed
 
@@ -72,5 +72,5 @@ Any substantial change to this policy will be signaled in the app via an update.
 
 ## 11. Contact & complaint
 
-For any question: mmoukah@gmail.com
+For any question: midfr.com@gmail.com
 You also have the right to lodge a complaint with the CNIL (www.cnil.fr) or your local data protection authority.
